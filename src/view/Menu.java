@@ -81,7 +81,7 @@ public class Menu {
         System.out.print("Nhập giá sản phẩm: ");
         int price = inputInt.nextInt();
         inputInt.nextLine(); // Consume newline
-        System.out.print("Nhập loại sản phẩm: ");
+        System.out.print("Nhập danh mục sản phẩm: ");
         String category = inputString.nextLine();
         Product newProduct = new Product(idEdit, name, price, category);
         Manager.update(idEdit, newProduct);
